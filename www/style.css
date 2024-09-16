@@ -1,14 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
 
-body {
-    background-color: black;
-    color: whitesmoke;
-    display: flex;
-    justify-content: center;
+html {
+    height: 100%;
     font-family: "JetBrains Mono", monospace;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
+}
+
+body {
+    background-color: black;
+    color: whitesmoke;
+    display: flex;
+    min-height: 100%;
+    justify-content: center;
+    align-items: center;
 }
 
 a {
@@ -16,12 +22,10 @@ a {
 }
 
 body main {
-    height: 1vh;
     max-width: 800px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
 }
 
 body main div {
