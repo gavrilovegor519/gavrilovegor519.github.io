@@ -12,10 +12,11 @@ body {
 }
 
 a {
-    color: white;
+    color: whitesmoke;
 }
 
 body main {
+    height: 1vh;
     max-width: 800px;
     display: flex;
     flex-direction: column;
