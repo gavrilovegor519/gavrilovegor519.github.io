@@ -1,7 +1,6 @@
 services:
   webserver:
-    image: "gavrilovegor519-site:latest"
-    build: .
+    image: "gavrilovegor519/homepage"
     container_name: "gavrilovegor519-site"
     restart: "always"
     ports:
