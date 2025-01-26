@@ -1,9 +1,8 @@
 services:
   webserver:
-    image: "httpd:2.4-alpine"
+    image: "gavrilovegor519-site:latest"
+    build: .
     container_name: "gavrilovegor519-site"
     restart: "always"
     ports:
       - "80:80"
-    volumes:
-      - ./:/usr/local/apache2/htdocs/
